@@ -71,7 +71,6 @@ function Palindrome($string)
         	</h4>
         	<!-- Back Button for Better Navigation -->
         	<input type="submit" value="Back"
-        	
         	<a href="#" onclick="history.back();"></a>
         </body>
 </html>
