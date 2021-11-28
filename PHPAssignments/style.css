@@ -1,0 +1,83 @@
+/** A custom style Sheet for display elements in validator forms and result pages.**/
+body {
+	background-color: #131313;
+	font-family: "arial";
+	color: white;
+}
+
+h2 {
+	color: #d18b0f;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px;
+	border: 2px solid #3C3214;
+	border-radius: 5px;
+	resize: vertical;
+	font-weight: 600;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	color: #131313;
+	font-weight: 600;
+}
+
+input[type=submit] {
+	background-color: #d18b0f;
+	color: white;
+	height: 44px;
+	width: 196px;
+	margin-top: 20px;
+	margin-left: 40%;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	float: center;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+input[type=submit]:hover {
+	background-color: #efcb5d;
+	color: #555555;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #d18b0f;
+	padding: 20px;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.col-25, .col-75, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
