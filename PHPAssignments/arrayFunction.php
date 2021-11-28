@@ -1,5 +1,5 @@
 <html>
-<head> <h2>Multiplier of 4/6 or both</h2>
+<head> <h2>Multiples of 4/6 or both</h2>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 </head> 
@@ -33,7 +33,7 @@ function multiples($arr)
             if($arr[$i]%6==0)
                 if($arr[$i]%4==0)
                     /**
-                     *  check if the number is multiple of Both 4 and 6.
+                     *  check if the number is multiple both 4 and 6.
                      */
           {
                     $arr1[$count]=$arr[$i];
@@ -71,7 +71,7 @@ function multiples($arr)
              * @var $arr : Array Converted from String
              */
             $arr=explode(",", $testString);
-            print "Sorted Array List of Inputted numbers:</br>";
+            print "Sorted array of input numbers:</br>";
             sort($arr);
             $len=sizeof($arr);
             for ($i = 0; $i < $len; $i++)
@@ -90,19 +90,19 @@ function multiples($arr)
            {
                if($n==1)
                {
-                   print "</br></br></br>Following number is multiplier of 4 or 6 or of both:</br>";
+                   print "</br></br></br>Following number is multiples of 4 or 6 or both:</br>";
                    for ($i = 0; $i < $n; $i++)
                        print "$resultArr[$i] ";
                }
                else
                {
-                   print "</br></br></br>Following $n numbers are multiplier of 4 or 6 or of both:</br>";
+                   print "</br></br></br>Following $n numbers are multiples of 4 or 6 or both:</br>";
                    for ($i = 0; $i < $n; $i++)
                        print "$resultArr[$i] ";
                }
            }
            else
-               print "</br></br></br>None of the number is multiplier of 4 or 6. </br>";
+               print "</br></br></br>None of the number is multiples of 4 or 6. </br>";
         
         }
         ?>

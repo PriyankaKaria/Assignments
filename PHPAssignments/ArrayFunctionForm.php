@@ -8,10 +8,10 @@
 <body>
 
 	<h2>
-		Mulitiplier of 4 or 6 or both <br />
+		Mulitiple of 4 or 6 or both <br />
 	</h2>
 	<h4>The function accepts an array of numbers as input and returns the
-		count of numbers which are multiplier of 4 or 6 or both.</h4>
+		count of numbers which are multiples of 4 or 6 or both.</h4>
 
 	<!-- A simple form to facilitate call to palindrome function. The form leverages the capabilities offered via use of regular expressions
         to validate the input. The form accepts only positive or negative integers separated by comma.

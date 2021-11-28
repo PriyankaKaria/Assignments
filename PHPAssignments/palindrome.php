@@ -22,7 +22,7 @@ function Palindrome($string)
      * Return the message stating that String is palindrome if the length is either 0 or 1.
      */
     if ((strlen($string) == 1) || (strlen($string) == 0)) {
-        echo "Paliendrome";
+        echo "Palindrome";
     } else {
         /**
          * Compare the first and last Character from the String.
@@ -38,7 +38,7 @@ function Palindrome($string)
              * At any point in comparison, if the characters at first and last of the String are found not to be equal
              * function returns the message stating the String is not a palindrome and exits the loop.
              */
-            echo "Not a Palindrome";
+            echo "not a Palindrome";
         }
     }
 }
@@ -56,7 +56,7 @@ function Palindrome($string)
              * *
              */
         if (empty($testString)) {
-            echo 'You have left the name field empty. You must enter a test String.';
+            echo 'You have left the name field empty, You must enter a test String...';
         } else {
             echo "Entered String $testString is ";
             /**
